@@ -1,10 +1,23 @@
-.App {
+.App{
   text-align: center;
+  background-color: rgb(236, 236, 217);  
+}
+.test{
+  background-image: url('https://media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg');
+  background-size: cover;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-div{
+  text-align: start;
+  background-color: #b1aeaeea;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,7 +26,7 @@
   }
 }
 
-.App-header {
+.App-header{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,11 +37,11 @@
   color: white;
 }
 
-.App-link {
+.App-link{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-spin{
   from {
     transform: rotate(0deg);
   }
